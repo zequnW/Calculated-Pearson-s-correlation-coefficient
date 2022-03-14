@@ -24,7 +24,7 @@ def read(file):
     return np.array(all_content)
 
 
-datas = read('E:/Zequn Wang/Paper-亲疏水蒸发/画图/Fig7/工作簿1.xlsx')
+datas = read('E:/Pycharm Project/pearson`s correlation coefficient/工作簿1.xlsx')
 # 方法选择person相关性
 corre = np.corrcoef(datas)
 np.set_printoptions(precision=4)  # 设置矩阵元素保留位数
